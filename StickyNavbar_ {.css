@@ -1,0 +1,164 @@
+                    #navbar {
+                        overflow: hidden;
+                        background-color: black;
+                        padding: 0px;
+                    }
+                    
+                    #navbar a {
+                        float: center;
+                        display: block;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px;
+                        text-decoration: none;
+                    }
+                    
+                    .content {
+                        padding: 50px;
+                    }
+                    
+                    .sticky {
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                    }
+                    
+                    .sticky+.content {
+                        padding-top: 60px;
+                    }
+                    
+                    .wrapper {
+                        width: 55px 50px;
+                        margin: auto;
+                    }
+                    
+                    #navbar .menu {
+                        position: fixed;
+                        background: black;
+                        flex-direction: column;
+                        min-width: 400px;
+                        height: 100vh;
+                        top: 0;
+                        right: 0;
+                        padding: 80px 50px;
+                    } 
+                    
+                    body {
+                        background-image: url("skyimage.jpg");
+                        height: 100vh;
+                        background-size: cover;
+                        background-position: center center;
+                        position: relative;
+                    }
+                    
+                    h1 {
+                        background-color: tomato;
+                        color: white;
+                        margin: 65px 100px 65px;
+                        padding: 1.5px;
+                        border-radius: 1em;
+                    }
+                    
+                    img {
+                        width: 30% !important;
+                        margin: 75px 50px;
+                        padding: 1.5em;
+                        height: auto;
+                        border-radius: 50%;
+                    }
+                    
+                    main {
+                        background: white;
+                        height: 50vh;
+                        max-width: 100em;
+                        margin: 45px 300px 45px;
+                        padding: 1rem;
+                    }
+
+                    body {
+                        margin: 25;
+                        color: yellow;
+                    }
+
+                    .bg-image {
+                        background: url(skyimage.jpg);
+                        background-repeat: no-repeat;
+                        padding: 100vh;
+
+                    }
+
+                    .container {
+                        height: 220px;
+                        background-size: cover;
+                        background-attachment: fixed;
+                    }
+
+                    .container div {
+                        padding: 10px;
+                        border: 5px solid orange;
+
+                    }
+
+                    .footer {
+                        grid-column-start: 1;
+                        grid-column-start: span 3;
+                    }
+
+                    .container {
+                        display: grid;
+                        grid: 15px;
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+
+                    h2 {
+                        background-color: none;
+                        color: yellow;
+                        margin: 0px;
+                        padding: 50px;
+                        box-sizing: border-box;
+                        border-style: solid;
+                        width: 200%;
+                        height: 40%;
+                    }
+
+                    p {
+                        background-color: none;
+                        color: yellow;
+                        margin: 0px;
+                        padding: 25px;
+                        box-sizing: border-box;
+                        border-style: solid;
+                        width: 200%;
+                        height: 40%;
+                    }
+
+                    form {
+                        background-color: tomato;
+                        color: white;
+                        background-repeat: no-repeat;
+                        border: 2px soild black;
+                        border-radius: 1rem;
+                    }
+
+                    input[type=text] {
+                        background-color: tomato;
+                        width: 30%;
+                        height: 50px;
+                        margin: 8px 0px;
+                        padding: 12px 12px;
+                        box-sizing: border-box;
+                        border-radius: 1em;
+                        font-size: 12px;
+                        resize: both;
+                    }
+
+                    textarea{
+                        width: 30%;
+                        height: 100px;
+                        padding: 12px 12px;
+                        box-sizing: border-box;
+                        border-radius: 1rem;
+                        background-color: tomato;
+                        font-size: 12px;
+                        resize: both;
+                    }
